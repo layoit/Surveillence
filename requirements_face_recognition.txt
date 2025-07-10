@@ -1,0 +1,11 @@
+# Face recognition packages - install separately to avoid compilation issues
+# These packages work without requiring CMake or compilation
+
+# Option 1: MediaPipe (no compilation needed, Python 3.12 compatible)
+mediapipe==0.10.21
+
+# Option 2: OpenCV contrib for face detection (no compilation needed)
+opencv-contrib-python==4.9.0.80
+
+# Option 3: Lightweight face recognition alternatives
+face-recognition-models==0.3.0
